@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Minotaurus eBTC — Official Project Site</title>
+  <meta name="description" content="Minotaurus eBTC — P2E runner game on BNB Smart Chain. eBTC powers in‑game purchases, rewards & ecosystem utilities." />
+  <meta name="theme-color" content="#0e0f16" />
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Minotaurus eBTC — Official Project Site" />
+  <meta property="og:description" content="P2E runner game on BNB Smart Chain. eBTC token integrates payments, shop, and player rewards." />
+  <meta property="og:image" content="/og-minotaurus.png" />
+  <meta property="og:url" content="https://example.com" />
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Minotaurus eBTC — Official Project Site" />
+  <meta name="twitter:description" content="P2E runner game on BNB Smart Chain. eBTC token integrates payments, shop, and player rewards." />
+  <meta name="twitter:image" content="/og-minotaurus.png" />
+  <style>
+    :root{--bg:#0e0f16;--card:#121826;--line:#22314d;--txt:#e8f1ff;--muted:#9fb3d1;--brand:#f59e0b;--brand2:#d97706}
+    *{box-sizing:border-box}
+    html,body{margin:0;background:var(--bg);color:var(--txt);font-family:Inter,system-ui,Segoe UI,Roboto,Arial}
+    a{color:#cfe3ff;text-decoration:none}
+    a:hover{text-decoration:underline}
+    .wrap{max-width:1080px;margin:0 auto;padding:20px}
+    .nav{display:flex;gap:12px;align-items:center;justify-content:space-between}
+    .logo{display:flex;gap:10px;align-items:center;font-weight:800}
+    .logo .dot{width:10px;height:10px;border-radius:50%;background:linear-gradient(135deg,var(--brand),var(--brand2))}
+    .btn{background:#1f2937;border:1px solid #2b3b58;color:#fff;padding:10px 14px;border-radius:12px;cursor:pointer;font-weight:700}
+    .btn:hover{filter:brightness(1.1)}
+    .hero{display:grid;grid-template-columns:1.3fr 1fr;gap:20px;align-items:center;padding:28px 0}
+    .card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px;box-shadow:0 10px 30px rgba(0,0,0,.35)}
+    h1{margin:0 0 10px;font-size:36px;line-height:1.15}
+    h2{margin:0 0 12px;font-size:22px}
+    p{margin:8px 0;color:#d8e5ff}
+    .muted{color:var(--muted)}
+    .grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+    .kpi{display:flex;flex-direction:column;gap:8px}
+    .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace}
+    .addr{display:flex;gap:8px;align-items:center;background:#0c1524;border:1px solid #1f2a40;border-radius:10px;padding:8px 10px}
+    .pill{border:1px solid var(--line);border-radius:999px;padding:2px 10px;color:var(--muted);font-size:12px}
+    footer{margin-top:30px;border-top:1px solid var(--line);padding:16px 0;color:var(--muted);font-size:13px}
+    .badge{background:linear-gradient(160deg,var(--brand),var(--brand2));color:#140a00;padding:6px 10px;border-radius:10px;font-weight:800}
+    .actions{display:flex;gap:10px;flex-wrap:wrap}
+    .cta{background:linear-gradient(160deg,var(--brand),var(--brand2));border:none;color:#140a00;font-weight:900;padding:12px 16px;border-radius:14px;cursor:pointer}
+    .cta:hover{filter:brightness(1.05)}
+    @media (max-width:940px){.hero{grid-template-columns:1fr}}
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"SoftwareApplication",
+    "name":"Minotaurus eBTC",
+    "applicationCategory":"Game, Blockchain",
+    "gamePlatform":["Web","Android","iOS"],
+    "offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},
+    "author":{"@type":"Person","name":"Hoàng Phước Quyền","nationality":"VN"},
+    "publisher":{"@type":"Organization","name":"Minotaurus eBTC"}
+  }
+  </script>
+</head>
+<body>
+  <div class="wrap">
+    <div class="nav">
+      <div class="logo"><div class="dot"></div> Minotaurus <span class="pill">eBTC</span></div>
+      <div class="actions">
+        <a class="btn" href="#token">Token</a>
+        <a class="btn" href="#roadmap">Lộ trình</a>
+        <a class="btn" href="#links">Liên kết</a>
+      </div>
+    </div>
+
+    <section class="hero">
+      <div class="card">
+        <span class="badge">BNB Smart Chain • P2E</span>
+        <h1>Minotaurus eBTC — P2E Runner dùng eBTC</h1>
+        <p>eBTC là token dùng cho thanh toán vật phẩm trong game, mở khoá nội dung và trả thưởng người chơi thắng cuộc. Dự án xây trên <strong>BNB Smart Chain (BSC)</strong> với tích hợp ví qua WalletConnect.</p>
+        <div class="actions" style="margin-top:12px">
+          <a class="cta" target="_blank" rel="noopener" href="https://bscscan.com/address/0x04fb36fc1f6e3843dd0b290b59c8b8f0a5577009">Xem trên BscScan</a>
+          <a class="btn" href="#links">Whitepaper / GitHub</a>
+        </div>
+      </div>
+      <div class="card">
+        <h2 id="token">Thông tin token eBTC</h2>
+        <div class="kpi">
+          <div><span class="muted">Mạng</span><div class="pill">BNB Smart Chain (Mainnet) • ChainId 56</div></div>
+          <div>
+            <span class="muted">Địa chỉ hợp đồng</span>
+            <div class="addr mono">
+              <span id="addr">0x04fb36fc1f6e3843dd0b290b59c8b8f0a5577009</span>
+              <button class="btn" onclick="copyAddr()">Copy</button>
+            </div>
+          </div>
+          <div><span class="muted">Decimals</span> <span class="pill">18</span></div>
+          <div><span class="muted">Tiện ích</span> Thanh toán Shop, Mở khoá vật phẩm, Trả thưởng (RewardClaims)</div>
+          <div><span class="muted">Chủ sở hữu</span> Hoàng Phước Quyền (Việt Nam)</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="grid">
+      <div class="card">
+        <h2>Điểm nổi bật</h2>
+        <ul>
+          <li>Gameplay chạy đơn giản, tối ưu cho mobile & web.</li>
+          <li>Tích hợp ví (WalletConnect) — Approve / Buy / Claim on‑chain.</li>
+          <li>Kiến trúc tách lớp: Phaser + Capacitor • Hardhat • API claim.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h2 id="roadmap">Lộ trình</h2>
+        <ol>
+          <li>Testnet: Shop + Claim end‑to‑end</li>
+          <li>Mainnet pilot nhỏ (giám sát & cân chỉnh)</li>
+          <li>Ra mắt trên Store (Android/iOS) dạng Capacitor</li>
+          <li>Mở rộng chế độ chơi & vật phẩm</li>
+        </ol>
+      </div>
+      <div class="card">
+        <h2 id="links">Liên kết</h2>
+        <ul>
+          <li><a target="_blank" rel="noopener" href="https://bscscan.com/address/0x04fb36fc1f6e3843dd0b290b59c8b8f0a5577009">eBTC trên BscScan</a></li>
+          <li><a href="#">Whitepaper (PDF)</a> — sẽ cập nhật</li>
+          <li><a href="#">GitHub</a> — sẽ cập nhật</li>
+          <li><a href="#">Privacy Policy</a> — sẽ cập nhật</li>
+        </ul>
+      </div>
+    </section>
+
+    <footer>
+      Generated by owner: Hoàng Phước Quyền (Việt Nam) • Minotaurus eBTC. Không lưu khoá riêng; giao dịch diễn ra qua ví bên thứ ba.
+    </footer>
+  </div>
+
+  <script>
+    function copyAddr(){
+      const el = document.getElementById('addr');
+      navigator.clipboard.writeText(el.textContent.trim()).then(()=>{
+        alert('Copied contract address to clipboard.');
+      });
+    }
+  </script>
+</body>
+</html>
